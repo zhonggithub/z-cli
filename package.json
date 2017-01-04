@@ -1,20 +1,20 @@
 {
   "name": "z-react-koa-cli",
-  "version": "0.0.5",
+  "version": "0.0.1",
   "description": "React with koa@2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "scion": "bin/cli"
+    "zcli": "bin/cli"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhonggithub/z-react-koa-cli.git"
+    "url": "git+https://github.com/zhonggithub/z-react-koa-cli.git"
   },
   "keywords": [
-    "scion",
+    "zcli",
     "cli",
     "es6"
   ],
