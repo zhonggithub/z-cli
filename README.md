@@ -1,10 +1,10 @@
-##z-react-kao-cli是什么?
-一个基于react + mbox 前端, koa2后端的脚手架;参考了[scion](https://github.com/jrainlau/scion).
+##z-react-koa-cli是什么?
+一个基于react + react-router + mbox 前端, koa2后端的脚手架项目初始化工具;工具实现参考了[scion](https://github.com/jrainlau/scion).
+脚手架详见[z-cli](https://github.com/zhonggithub/z-cli)
+##如何使用
 
-##有哪些功能？
-
-* 前端集成了antd开发的一些常用组件
-* 后端集成了ava测试框架
+* npm install z-react-koa-cli -g
+* zcli init
 
 ##有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
