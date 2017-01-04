@@ -14,7 +14,6 @@ module.exports = () => {
     const cmdStr = `git clone -b ${branch} ${gitUrl} ${projectName}`
 
 	  console.log(chalk.white('\n Start generating...'))
-
 	  exec(cmdStr, (error, stdout, stderr) => {
       if (error) {
         console.log(error)
