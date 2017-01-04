@@ -1,6 +1,6 @@
 {
   "name": "z-react-koa-cli",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "React with koa@2",
   "main": "index.js",
   "scripts": {

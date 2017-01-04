@@ -7,14 +7,11 @@ const chalk = require('chalk')
 
 module.exports = () => {
  	co(function *() {
-  	let projectName = yield prompt('Project name: ')
-  	let gitUrl
-  	let branch
+  	const projectName = yield prompt('Project name: ')
+  	const gitUrl = config.url
+  	const branch = config.branch
 
-		gitUrl = config.tpl.url
-		branch = config.tpl.branch
-
-    let cmdStr = `git clone -b ${branch} ${gitUrl} ${projectName}`
+    const cmdStr = `git clone -b ${branch} ${gitUrl} ${projectName}`
 
 	  console.log(chalk.white('\n Start generating...'))
 
