@@ -11,14 +11,23 @@ module.exports = () => {
   	const gitUrl = config.url
   	const branch = config.branch
 
-    const cmdStr = `git clone -b ${branch} ${gitUrl} ${projectName}`
+    const cmdStr = `git clone --depth=1 -b ${branch} ${gitUrl} ${projectName}`
 
-	  console.log(chalk.white('\n Start generating...'))
+	  console.log(chalk.white('\n Start generating... It takes some time!'))
 	  exec(cmdStr, (error, stdout, stderr) => {
       if (error) {
         console.log(error)
         process.exit()
       }
+      exec(`cd ${projectName}`, (err, stdout, stderr) => {
+        console.log(chalk.white(`${err.toString()}`))
+        if (!error) {
+          exec(`remove -rf .git`, (err, stdout, stderr) => {
+            console.log(chalk.white(`${err.toString()}`))
+          })
+          return;
+        }
+      })
       console.log(chalk.green('\n √ Generation completed!'))
       console.log(`\n cd ${projectName} && npm install \n`)
       process.exit()
