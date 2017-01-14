@@ -4,7 +4,8 @@
 ##如何使用
 
 * npm install z-react-koa-cli -g
-* zcli init
+* zcli init myProject -t z-cli 下载[z-cli](https://github.com/zhonggithub/z-cli.git)脚手架
+* 或者 zcli init myProject -t [z-rest-koa](https://github.com/zhonggithub/z-rest-koa.git)
 
 ##有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流

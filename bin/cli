@@ -12,11 +12,11 @@ program
 	.usage('<command>')
 
 program
-	.command('init')
+  .command('init <template>')
 	.description('Generate a new project')
   .alias('i')
-  .action(() => {
-    require('../command/init')()
+  .action((template) => {
+    require('../command/init')(template)
   })
 
 program.parse(process.argv)

@@ -1,4 +1,10 @@
 {
-  "url": "https://github.com/zhonggithub/z-cli.git",
-  "branch": "master"
+  "z-cli": {
+    "url": "https://github.com/zhonggithub/z-cli.git",
+    "branch": "master"
+  },
+  "z-rest-koa": {
+    "url": "https://github.com/zhonggithub/z-rest-koa.git",
+    "branch": "master"
+  }
 }

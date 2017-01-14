@@ -5,14 +5,13 @@ const prompt = require('co-prompt')
 const config = require('../template')
 const chalk = require('chalk')
 
-module.exports = () => {
+module.exports = (t) => {
  	co(function *() {
   	const projectName = yield prompt('Project name: ')
-  	const gitUrl = config.url
-  	const branch = config.branch
+    const gitUrl = config[t].url
+    const branch = config[t].branch
 
     const cmdStr = `git clone --depth=1 -b ${branch} ${gitUrl} ${projectName}`
-
 	  console.log(chalk.white('\n Start generating... It takes some time!'))
 	  exec(cmdStr, (error, stdout, stderr) => {
       if (error) {
