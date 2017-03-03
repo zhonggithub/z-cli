@@ -3,7 +3,7 @@
 脚手架详见[z-cli](https://github.com/zhonggithub/z-cli)
 ##如何使用
 
-* npm install z-react-koa-cli -g
+* npm install z-cli -g
 * zcli init [z-react-koa](https://github.com/zhonggithub/z-react-koa.git)
 * 或者 zcli init [z-rest-koa](https://github.com/zhonggithub/z-rest-koa.git)
 
