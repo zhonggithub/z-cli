@@ -1,10 +1,10 @@
-##z-react-koa-cli是什么?
-一个基于react + react-router + mbox 前端, koa2后端的脚手架项目初始化工具;工具实现参考了[scion](https://github.com/jrainlau/scion).
+##z-cli是什么?
+一个[z-react-koa](https://github.com/zhonggithub/z-react-koa.git), [z-rest-koa](https://github.com/zhonggithub/z-rest-koa.git) 脚手架项目初始化工具;工具实现参考了[scion](https://github.com/jrainlau/scion).
 脚手架详见[z-cli](https://github.com/zhonggithub/z-cli)
 ##如何使用
 
 * npm install z-react-koa-cli -g
-* zcli init [z-cli](https://github.com/zhonggithub/z-cli.git)
+* zcli init [z-react-koa](https://github.com/zhonggithub/z-react-koa.git)
 * 或者 zcli init [z-rest-koa](https://github.com/zhonggithub/z-rest-koa.git)
 
 ##有问题反馈
