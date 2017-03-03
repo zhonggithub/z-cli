@@ -1,6 +1,5 @@
-##z-cli是什么?
+##zh-cli是什么?
 一个[z-react-koa](https://github.com/zhonggithub/z-react-koa.git), [z-rest-koa](https://github.com/zhonggithub/z-rest-koa.git) 脚手架项目初始化工具;工具实现参考了[scion](https://github.com/jrainlau/scion).
-脚手架详见[z-cli](https://github.com/zhonggithub/z-cli)
 ##如何使用
 
 * npm install zh-cli -g
