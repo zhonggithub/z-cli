@@ -1,6 +1,6 @@
 {
-  "z-cli": {
-    "url": "https://github.com/zhonggithub/z-cli.git",
+  "z-react-koa": {
+    "url": "https://github.com/zhonggithub/z-react-koa.git",
     "branch": "master"
   },
   "z-rest-koa": {
