@@ -19,7 +19,7 @@ module.exports = (t) => {
         process.exit()
       }
       exec(`cd ${projectName}`, (err, stdout, stderr) => {
-        console.log(chalk.white(`${err.toString()}`))
+        console.log(chalk.red(`${err.toString()}`))
         if (!error) {
           exec(`remove -rf .git`, (err, stdout, stderr) => {
             console.log(chalk.white(`${err.toString()}`))
@@ -28,7 +28,7 @@ module.exports = (t) => {
         }
       })
       console.log(chalk.green('\n √ Generation completed!'))
-      console.log(`\n cd ${projectName} && npm install \n`)
+      console.log(chalk.green(`\n cd ${projectName} && npm install \n`))
       process.exit()
 	  })
   })
