@@ -3,6 +3,10 @@
     "url": "https://github.com/zhonggithub/z-react-koa.git",
     "branch": "master"
   },
+  "z-react-koa@next": {
+    "url": "https://github.com/zhonggithub/z-react-koa.git",
+    "branch": "next"
+  },
   "z-rest-koa": {
     "url": "https://github.com/zhonggithub/z-rest-koa.git",
     "branch": "master"
