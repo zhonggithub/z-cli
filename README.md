@@ -4,7 +4,8 @@
 ## 如何使用
 
 * npm install zh-cli -g
-* zcli init [z-react-koa](https://github.com/zhonggithub/z-react-koa.git)
+* zcli init [z-react-koa](https://github.com/zhonggithub/z-react-koa/tree/master)
+* zcli init [z-react-koa@next](https://github.com/zhonggithub/z-react-koa)
 * 或者 zcli init [z-rest-koa](https://github.com/zhonggithub/z-rest-koa.git)
 
 ## 问题反馈
