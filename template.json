@@ -12,7 +12,11 @@
     "branch": "master"
   },
   "z-app": {
-    "url": "git@gitlab.com:hugozz/z-app.git",
+    "url": "https://hugozz@gitlab.com/hugozz/z-app.git",
+    "branch": "master"
+  },
+  "z-react": {
+    "url": "https://hugozz@gitlab.com/hugozz/z-react.git",
     "branch": "master"
   }
 }
