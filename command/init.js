@@ -6,7 +6,6 @@ const config = require('../template')
 const chalk = require('chalk')
 
 module.exports = (t) => {
-  t = 'z-react-koa';
  	co(function *() {
   	const projectName = yield prompt('Project name: ')
     const gitUrl = config[t].url
