@@ -6,6 +6,7 @@ const config = require('../template')
 const chalk = require('chalk')
 
 module.exports = (t) => {
+  t = 'z-react-koa';
  	co(function *() {
   	const projectName = yield prompt('Project name: ')
     const gitUrl = config[t].url
@@ -18,18 +19,15 @@ module.exports = (t) => {
         console.log(error)
         process.exit()
       }
-      exec(`cd ${projectName}`, (err, stdout, stderr) => {
-        console.log(chalk.red(`${err.toString()}`))
-        if (!error) {
-          exec(`remove -rf .git`, (err, stdout, stderr) => {
-            console.log(chalk.white(`${err.toString()}`))
-          })
+      exec(`rm -rf ${process.cwd()}/${projectName}/.git`, (err, stdout, stderr) => {
+        if (err) {
+          console.log(chalk.red(`${err.toString()}`))
           return;
         }
+        process.exit();
       })
       console.log(chalk.green('\n √ Generation completed!'))
       console.log(chalk.green(`\n cd ${projectName} && npm install \n`))
-      process.exit()
 	  })
   })
 }

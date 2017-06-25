@@ -18,5 +18,9 @@
   "z-react": {
     "url": "https://hugozz@gitlab.com/hugozz/z-react.git",
     "branch": "master"
+  },
+  "z-seneca": {
+    "url": "https://gitlab.com/hugozz/z-seneca.git",
+    "branch": "master"
   }
 }
