@@ -7,7 +7,11 @@ const chalk = require('chalk')
 
 module.exports = (t) => {
  	co(function *() {
-  	const projectName = yield prompt('Project name: ')
+    const projectName = yield prompt('Project name: ')
+    if (!config[t] || !config[t].url || !config[t].branch) {
+      console.log(chalk.red('不支持该框架。框架参数：z-react-koa, z-react-koa@next, z-app, z-react, z-react@next, z-seneca'))
+      process.exit()
+    }
     const gitUrl = config[t].url
     const branch = config[t].branch
 
@@ -15,7 +19,7 @@ module.exports = (t) => {
 	  console.log(chalk.white('\n Start generating... It takes some time!'))
 	  exec(cmdStr, (error, stdout, stderr) => {
       if (error) {
-        console.log(error)
+        console.log(chalk.red(`${err.toString()}`)
         process.exit()
       }
       exec(`rm -rf ${process.cwd()}/${projectName}/.git`, (err, stdout, stderr) => {
