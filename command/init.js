@@ -19,7 +19,7 @@ module.exports = (t) => {
 	  console.log(chalk.white('\n Start generating... It takes some time!'))
 	  exec(cmdStr, (error, stdout, stderr) => {
       if (error) {
-        console.log(chalk.red(`${err.toString()}`)
+        console.log(chalk.red(`${err.toString()}`))
         process.exit()
       }
       exec(`rm -rf ${process.cwd()}/${projectName}/.git`, (err, stdout, stderr) => {
