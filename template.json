@@ -16,12 +16,12 @@
     "branch": "master"
   },
   "z-react": {
-    "url": "https://hugozz@gitlab.com/hugozz/z-react.git",
+    "url": "git@code.aliyun.com:quitjie/z-react.git",
     "branch": "master"
   },
   "z-react@next": {
     "url": "git@code.aliyun.com:quitjie/z-react.git",
-    "branch": "master"
+    "branch": "next"
   },
   "z-seneca": {
     "url": "git@code.aliyun.com:quitjie/z-seneca.git",
