@@ -14,5 +14,9 @@
   "z-seneca": {
     "url": "git@code.aliyun.com:quitjie/z-seneca.git",
     "branch": "master"
+  },
+  "z-web-console": {
+    "url": "git@code.aliyun.com:quitjie/z-web-console.git",
+    "branch": "master"
   }
 }
