@@ -5,8 +5,6 @@
 
 * npm install zh-cli -g
 * zcli init [z-react-koa](https://github.com/zhonggithub/z-react-koa/tree/master)
-* zcli init [z-react-koa@next](https://github.com/zhonggithub/z-react-koa)
-* 或者 zcli init [z-rest-koa](https://github.com/zhonggithub/z-rest-koa.git)
 * zcli init [z-app](https://gitlab.com/hugozz/z-app)
 * zcli init [z-react](https://gitlab.com/hugozz/z-react)
 * zcli init [z-seneca](https://gitlab.com/hugozz/z-user-manage-service)

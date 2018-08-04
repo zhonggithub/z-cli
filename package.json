@@ -1,6 +1,6 @@
 {
   "name": "zh-cli",
-  "version": "1.10.9",
+  "version": "1.11.1",
   "description": "脚手架",
   "main": "index.js",
   "scripts": {

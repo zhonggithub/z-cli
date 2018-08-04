@@ -1,3 +1,4 @@
 const init = require('../command/init');
 
-init();
+// init('z-react-koa');
+init('z-react');

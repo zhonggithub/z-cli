@@ -3,14 +3,6 @@
     "url": "https://github.com/zhonggithub/z-react-koa.git",
     "branch": "master"
   },
-  "z-react-koa@next": {
-    "url": "https://github.com/zhonggithub/z-react-koa.git",
-    "branch": "next"
-  },
-  "z-rest-koa": {
-    "url": "https://github.com/zhonggithub/z-rest-koa.git",
-    "branch": "master"
-  },
   "z-app": {
     "url": "git@code.aliyun.com:quitjie/z-app.git",
     "branch": "master"
@@ -18,10 +10,6 @@
   "z-react": {
     "url": "git@code.aliyun.com:quitjie/z-react.git",
     "branch": "master"
-  },
-  "z-react@next": {
-    "url": "git@code.aliyun.com:quitjie/z-react.git",
-    "branch": "next"
   },
   "z-seneca": {
     "url": "git@code.aliyun.com:quitjie/z-seneca.git",
