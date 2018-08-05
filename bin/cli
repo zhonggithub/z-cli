@@ -13,7 +13,7 @@ program
 
 program
   .command('init <template>')
-	.description('使用哪个框架初始化工程？可选：z-react-koa, z-app, z-react, z-seneca, z-web-console, z-console-service')
+	.description('使用哪个框架初始化工程？可选：z-react-koa, z-app, z-react, z-seneca, z-web-console, z-console-service, z-queue-service, z-log-service, z-account-service, z-common-service, z-websocket-service')
   .alias('i')
   .action((template) => {
     require('../command/init')(template)

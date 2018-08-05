@@ -14,7 +14,7 @@ module.exports = (t) => {
     }
 
     if (!config[t] || !config[t].url || !config[t].branch) {
-      console.log(chalk.red(`不支持该框架: ${t}。框架参数：z-react-koa, z-app, z-react, z-seneca, z-web-console, z-console-service`))
+      console.log(chalk.red(`不支持该框架: ${t}。框架参数：z-react-koa, z-app, z-react, z-seneca, z-web-console, z-console-service, z-queue-service, z-log-service, z-account-service, z-common-service, z-websocket-service`))
       process.exit()
     }
 

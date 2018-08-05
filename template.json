@@ -22,5 +22,25 @@
   "z-console-service": {
     "url": "git@code.aliyun.com:quitjie/z-console-service.git",
     "branch": "master"
+  },
+  "z-queue-service": {
+    "url": "git@code.aliyun.com:quitjie/z-queue-service.git",
+    "branch": "master"
+  },
+  "z-log-service": {
+    "url": "git@code.aliyun.com:quitjie/z-log-service.git",
+    "branch": "master"
+  },
+  "z-account-service": {
+    "url": "git@code.aliyun.com:quitjie/z-account-service.git",
+    "branch": "master"
+  },
+  "z-common-service": {
+    "url": "git@code.aliyun.com:quitjie/z-common-service.git",
+    "branch": "master"
+  },
+  "z-websocket-service": {
+    "url": "git@code.aliyun.com:quitjie/z-websocket-service.git",
+    "branch": "master"
   }
 }
