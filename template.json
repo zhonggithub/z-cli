@@ -18,5 +18,9 @@
   "z-web-console": {
     "url": "git@code.aliyun.com:quitjie/z-web-console.git",
     "branch": "master"
+  },
+  "z-console-service": {
+    "url": "git@code.aliyun.com:quitjie/z-console-service.git",
+    "branch": "master"
   }
 }
